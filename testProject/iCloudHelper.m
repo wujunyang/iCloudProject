@@ -47,6 +47,9 @@
     //保存操作
     [database saveRecord:noteRecord completionHandler:^(CKRecord * _Nullable record, NSError * _Nullable error) {
         if (!error) {
+            BBUserDefault.userName=name;
+            BBUserDefault.password=password;
+            
             [self showAlertMessage:@"保存成功"];
         }
     }];

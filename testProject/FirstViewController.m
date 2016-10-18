@@ -30,6 +30,15 @@
         }];
     }
     
+    id cloudUrl=[[NSFileManager defaultManager] URLForUbiquityContainerIdentifier:nil];
+    //判断是否打开iCloud功能
+    if(!cloudUrl)
+    {
+        UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"" message:@"查看是否登录iCloud账号并开启iCloud开关" delegate:nil cancelButtonTitle:@"知道了" otherButtonTitles:nil, nil];
+        [alert show];
+        return;
+    }
+    
     [iCloudHelper searchRecordWithFormPublic:YES withCompletion:^(NSError *error, NSString *userName, NSString *password) {
         dispatch_async(dispatch_get_main_queue(), ^{
             if (error||userName.length==0) {

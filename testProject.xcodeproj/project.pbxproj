@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		3427D0481DAF4E5B000D0354 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3427D0471DAF4E5B000D0354 /* CloudKit.framework */; };
 		3427D0741DAF795B000D0354 /* iCloudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3427D0731DAF795B000D0354 /* iCloudViewController.m */; };
+		342BA4FE1DB8A03700E41986 /* iCloudFileListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342BA4FD1DB8A03700E41986 /* iCloudFileListViewController.m */; };
+		342BA50B1DB8A7CF00E41986 /* ICACloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 342BA50A1DB8A7CF00E41986 /* ICACloud.m */; };
+		342BA51E1DB8C7BF00E41986 /* ConflictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342BA50E1DB8C7BF00E41986 /* ConflictViewController.m */; };
+		342BA51F1DB8C7BF00E41986 /* DocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342BA5101DB8C7BF00E41986 /* DocumentViewController.m */; };
+		342BA5201DB8C7BF00E41986 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342BA5121DB8C7BF00E41986 /* ListViewController.m */; };
+		342BA5211DB8C7BF00E41986 /* MHPrettyDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 342BA5151DB8C7BF00E41986 /* MHPrettyDate.m */; };
+		342BA5221DB8C7BF00E41986 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 342BA5161DB8C7BF00E41986 /* Settings.bundle */; };
+		342BA5231DB8C7BF00E41986 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342BA5181DB8C7BF00E41986 /* ShareViewController.m */; };
+		342BA5241DB8C7BF00E41986 /* TLTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 342BA51B1DB8C7BF00E41986 /* TLTransitionAnimator.m */; };
+		342BA5251DB8C7BF00E41986 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342BA51D1DB8C7BF00E41986 /* WelcomeViewController.m */; };
+		342BA5271DB8C86400E41986 /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342BA5261DB8C86400E41986 /* iPhoneStoryboard.storyboard */; };
 		3485EE691DB4AE7A00EE3F18 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3485EE681DB4AE7A00EE3F18 /* LoginViewController.m */; };
 		3485EE6C1DB4AE8A00EE3F18 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3485EE6B1DB4AE8A00EE3F18 /* MainViewController.m */; };
 		3485EE731DB4B47000EE3F18 /* GVUserDefaults+BBProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3485EE721DB4B47000EE3F18 /* GVUserDefaults+BBProperties.m */; };
@@ -50,6 +61,26 @@
 		3427D0471DAF4E5B000D0354 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		3427D0721DAF795B000D0354 /* iCloudViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCloudViewController.h; sourceTree = "<group>"; };
 		3427D0731DAF795B000D0354 /* iCloudViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCloudViewController.m; sourceTree = "<group>"; };
+		342BA4FC1DB8A03700E41986 /* iCloudFileListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCloudFileListViewController.h; sourceTree = "<group>"; };
+		342BA4FD1DB8A03700E41986 /* iCloudFileListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCloudFileListViewController.m; sourceTree = "<group>"; };
+		342BA5091DB8A7CF00E41986 /* ICACloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICACloud.h; sourceTree = "<group>"; };
+		342BA50A1DB8A7CF00E41986 /* ICACloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICACloud.m; sourceTree = "<group>"; };
+		342BA50D1DB8C7BF00E41986 /* ConflictViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConflictViewController.h; sourceTree = "<group>"; };
+		342BA50E1DB8C7BF00E41986 /* ConflictViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConflictViewController.m; sourceTree = "<group>"; };
+		342BA50F1DB8C7BF00E41986 /* DocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentViewController.h; sourceTree = "<group>"; };
+		342BA5101DB8C7BF00E41986 /* DocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentViewController.m; sourceTree = "<group>"; };
+		342BA5111DB8C7BF00E41986 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		342BA5121DB8C7BF00E41986 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		342BA5141DB8C7BF00E41986 /* MHPrettyDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHPrettyDate.h; sourceTree = "<group>"; };
+		342BA5151DB8C7BF00E41986 /* MHPrettyDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHPrettyDate.m; sourceTree = "<group>"; };
+		342BA5161DB8C7BF00E41986 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		342BA5171DB8C7BF00E41986 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		342BA5181DB8C7BF00E41986 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		342BA51A1DB8C7BF00E41986 /* TLTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTransitionAnimator.h; sourceTree = "<group>"; };
+		342BA51B1DB8C7BF00E41986 /* TLTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTransitionAnimator.m; sourceTree = "<group>"; };
+		342BA51C1DB8C7BF00E41986 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		342BA51D1DB8C7BF00E41986 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		342BA5261DB8C86400E41986 /* iPhoneStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneStoryboard.storyboard; sourceTree = "<group>"; };
 		3485EE671DB4AE7A00EE3F18 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		3485EE681DB4AE7A00EE3F18 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		3485EE6A1DB4AE8A00EE3F18 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -114,6 +145,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		342BA50C1DB8C76E00E41986 /* iCloudFileDemo */ = {
+			isa = PBXGroup;
+			children = (
+				342BA5261DB8C86400E41986 /* iPhoneStoryboard.storyboard */,
+				342BA50D1DB8C7BF00E41986 /* ConflictViewController.h */,
+				342BA50E1DB8C7BF00E41986 /* ConflictViewController.m */,
+				342BA50F1DB8C7BF00E41986 /* DocumentViewController.h */,
+				342BA5101DB8C7BF00E41986 /* DocumentViewController.m */,
+				342BA5111DB8C7BF00E41986 /* ListViewController.h */,
+				342BA5121DB8C7BF00E41986 /* ListViewController.m */,
+				342BA5131DB8C7BF00E41986 /* MHPrettyDate */,
+				342BA5161DB8C7BF00E41986 /* Settings.bundle */,
+				342BA5171DB8C7BF00E41986 /* ShareViewController.h */,
+				342BA5181DB8C7BF00E41986 /* ShareViewController.m */,
+				342BA5191DB8C7BF00E41986 /* TLTransitionAnimator */,
+				342BA51C1DB8C7BF00E41986 /* WelcomeViewController.h */,
+				342BA51D1DB8C7BF00E41986 /* WelcomeViewController.m */,
+			);
+			path = iCloudFileDemo;
+			sourceTree = "<group>";
+		};
+		342BA5131DB8C7BF00E41986 /* MHPrettyDate */ = {
+			isa = PBXGroup;
+			children = (
+				342BA5141DB8C7BF00E41986 /* MHPrettyDate.h */,
+				342BA5151DB8C7BF00E41986 /* MHPrettyDate.m */,
+			);
+			path = MHPrettyDate;
+			sourceTree = "<group>";
+		};
+		342BA5191DB8C7BF00E41986 /* TLTransitionAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				342BA51A1DB8C7BF00E41986 /* TLTransitionAnimator.h */,
+				342BA51B1DB8C7BF00E41986 /* TLTransitionAnimator.m */,
+			);
+			path = TLTransitionAnimator;
+			sourceTree = "<group>";
+		};
 		3485EE6D1DB4B39A00EE3F18 /* GVUserDefaults */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +231,9 @@
 		34F83CCA1D9BA1370085A540 /* testProject */ = {
 			isa = PBXGroup;
 			children = (
+				342BA50C1DB8C76E00E41986 /* iCloudFileDemo */,
+				342BA5091DB8A7CF00E41986 /* ICACloud.h */,
+				342BA50A1DB8A7CF00E41986 /* ICACloud.m */,
 				3485EE771DB4B6D300EE3F18 /* FCUUID */,
 				3485EE6D1DB4B39A00EE3F18 /* GVUserDefaults */,
 				3427D0421DAF4AAB000D0354 /* testProject.entitlements */,
@@ -183,6 +256,8 @@
 				3485EE751DB4B59C00EE3F18 /* iCloudHelper.m */,
 				3485EE811DB4BFD700EE3F18 /* FirstViewController.h */,
 				3485EE821DB4BFD700EE3F18 /* FirstViewController.m */,
+				342BA4FC1DB8A03700E41986 /* iCloudFileListViewController.h */,
+				342BA4FD1DB8A03700E41986 /* iCloudFileListViewController.m */,
 			);
 			path = testProject;
 			sourceTree = "<group>";
@@ -347,7 +422,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342BA5221DB8C7BF00E41986 /* Settings.bundle in Resources */,
 				34F83CDB1D9BA1370085A540 /* LaunchScreen.storyboard in Resources */,
+				342BA5271DB8C86400E41986 /* iPhoneStoryboard.storyboard in Resources */,
 				34F83CD81D9BA1370085A540 /* Assets.xcassets in Resources */,
 				34F83CD61D9BA1370085A540 /* Main.storyboard in Resources */,
 			);
@@ -423,17 +500,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				3485EE761DB4B59C00EE3F18 /* iCloudHelper.m in Sources */,
+				342BA51F1DB8C7BF00E41986 /* DocumentViewController.m in Sources */,
+				342BA5211DB8C7BF00E41986 /* MHPrettyDate.m in Sources */,
 				3485EE731DB4B47000EE3F18 /* GVUserDefaults+BBProperties.m in Sources */,
+				342BA4FE1DB8A03700E41986 /* iCloudFileListViewController.m in Sources */,
+				342BA5251DB8C7BF00E41986 /* WelcomeViewController.m in Sources */,
 				3427D0741DAF795B000D0354 /* iCloudViewController.m in Sources */,
 				3485EE7F1DB4B6D300EE3F18 /* UICKeyChainStore.m in Sources */,
 				3485EE7E1DB4B6D300EE3F18 /* FCUUID.m in Sources */,
+				342BA5201DB8C7BF00E41986 /* ListViewController.m in Sources */,
 				3485EE6C1DB4AE8A00EE3F18 /* MainViewController.m in Sources */,
+				342BA5231DB8C7BF00E41986 /* ShareViewController.m in Sources */,
+				342BA5241DB8C7BF00E41986 /* TLTransitionAnimator.m in Sources */,
+				342BA50B1DB8A7CF00E41986 /* ICACloud.m in Sources */,
 				34F83CD31D9BA1370085A540 /* ViewController.m in Sources */,
 				3485EE831DB4BFD700EE3F18 /* FirstViewController.m in Sources */,
 				34F83CD01D9BA1370085A540 /* AppDelegate.m in Sources */,
 				3485EE801DB4B6D300EE3F18 /* UIDevice+FCUUID.m in Sources */,
 				34F83CCD1D9BA1370085A540 /* main.m in Sources */,
 				3485EE691DB4AE7A00EE3F18 /* LoginViewController.m in Sources */,
+				342BA51E1DB8C7BF00E41986 /* ConflictViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

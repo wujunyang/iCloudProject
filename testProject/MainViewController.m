@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 #import "iCloudHelper.h"
+#import "ListViewController.h"
 
 @interface MainViewController ()
 @property(strong,nonatomic)UILabel *myLabel;
@@ -34,6 +35,15 @@
         }];
     }
 
+    
+    //设置右边
+//    UIButton*rightButton = [[UIButton alloc]initWithFrame:CGRectMake(0,0,70,30)];
+//    [rightButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+//    [rightButton setTitle:@"iCloud文件" forState:UIControlStateNormal];
+//    [rightButton addTarget:self action:@selector(iCloudFileManager)forControlEvents:UIControlEventTouchUpInside];
+//    UIBarButtonItem*rightItem = [[UIBarButtonItem alloc]initWithCustomView:rightButton];
+//    self.navigationItem.rightBarButtonItem= rightItem;
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -41,5 +51,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+-(void)iCloudFileManager
+{
+    ListViewController *vc=[[ListViewController alloc]init];
+    
+     [self.navigationController pushViewController:vc animated:YES];
+}
 
 @end

@@ -19,7 +19,7 @@
     
     if (!self.myLabel) {
         self.myLabel=[[UILabel alloc]init];
-        self.myLabel.text=@"动画加载中...";
+        self.myLabel.text=@"动画加载中（请求数据中）...";
         self.myLabel.textAlignment=NSTextAlignmentCenter;
         [self.view addSubview:self.myLabel];
         [self.myLabel mas_makeConstraints:^(MASConstraintMaker *make) {
